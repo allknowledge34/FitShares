@@ -36,7 +36,7 @@ export default function PrivacyAndSecurityScreen() {
     };
 
     const contactEmail = () => {
-        Linking.openURL("mailto:support@yourapp.com").catch(() =>
+        Linking.openURL("mailto:allknowledge34@gmail.com").catch(() =>
             Alert.alert("Error", "Unable to open link")
         );
     };
@@ -74,13 +74,7 @@ export default function PrivacyAndSecurityScreen() {
                 <Card
                     icon="lock-closed-outline"
                     title="Privacy Policy"
-                    onPress={() => openLink("https://yourapp.com/privacy")}
-                />
-
-                <Card
-                    icon="shield-checkmark-outline"
-                    title="Terms and Conditions"
-                    onPress={() => openLink("https://yourapp.com/privacy")}
+                    onPress={() => openLink("https://www.freeprivacypolicy.com/live/b49d0838-f981-4c5c-a42d-42f3c9cc6c9a")}
                 />
 
                 <Text style={styles.section}>General</Text>
